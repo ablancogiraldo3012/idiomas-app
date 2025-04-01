@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpdoc>
+    <title>Documentación Idiomas App</title>
+    <parser>
+        <target>docs/api</target>
+        <encoding>utf-8</encoding>
+    </parser>
+    <transformations>
+        <target>docs</target>
+        <template>clean</template>
+    </transformations>
+    <files>
+        <directory>src</directory>
+        <ignore>tests/</ignore>
+    </files>
+    <version number="1.0.0"/>
+</phpdoc>
